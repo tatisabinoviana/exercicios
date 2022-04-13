@@ -1,16 +1,10 @@
 package controle;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class DesafioWhile {
 	public static void main(String[] args) {
-		// media das notas de uma turma
-		// 10 a 0 -- usuario digita
-		// total
-		// nova nota soma com total
-		// variavel com quantidades de notas digitadas
-		// -1 digitado pra sair do programa
+
 		Scanner entrada = new Scanner(System.in);
 
 		int quantidadeDeNotas = 0;
@@ -33,7 +27,6 @@ public class DesafioWhile {
 		
 		double media = total / quantidadeDeNotas;
 		System.out.println("Média = " + media);
-		
 		
 		entrada.close();
 	}
