@@ -17,10 +17,12 @@ public class Data {
 	}
 	
 	String obterDataFormatada(){
-		return String.format("%d/%d/%d", dia, mes, ano);
+		final String formato = "%d/%d/%d";
+		return String.format(formato, dia, mes, ano);
 	}
 	
 	void imprimirDataFormatada(){
+//		formato = "...";
 		System.out.println(obterDataFormatada());
 	}
 }
